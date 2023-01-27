@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h4,
+h5 {
+    font-size: 20px;
+}
+
+.ContenedorGeneral {
+    /*     width: 100vw;
+    height: 100vh; */
+    background-color: #012030;
+}
+
+.ContenedorBarra {
+    background-color: #2E5871;
+    width: 80%;
+    height: 10%;
+    display: inline-block;
+    position: fixed;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.BarraDeNavegacion {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BarraDeNavegacion ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BarraDeNavegacion ul a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 30px 0 30px;
+    color: #9AEBA3;
+    font-size: 22px;
+}
+
+.BarraDeNavegacion ul a li {
+    font-weight: 600;
+}
+
+.ContenedorDeInformacion {
+    width: 80%;
+    margin-top: 10%;
+    display: inline-block;
+    height: 30%;
+    background-color: #13678A;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.CajaDeInformacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.InfoPersonal {
+    display: flex;
+    width: 49%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 0px 20px 20px;
+}
+
+.InfoPersonal h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.InfoPersonal h1,
+h2 {
+    font-size: 2.5rem;
+    color: #9AEBA3;
+}
+
+h6 {
+    font-size: 15px;
+    color: #9AEBA3;
+}
+
+.ContenedorDeFoto {
+    display: flex;
+    width: 49%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContenedorDeFoto figure img {
+    width: auto;
+    height: 320px;
+}
+
+.ContenedorAcademico {
+    width: 80%;
+    margin-top: 2%;
+    display: inline-block;
+    height: 30%;
+    background-color: #13678A;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.ContenedorTituloGenerico {
+    margin: 20px;
+}
+
+.ListadoAcademico {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LineaDeTiempo {
+    width: 80%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #45C4B0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ContenedorDeFechas {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContenedorExpLaboral {
+    width: 80%;
+    margin-top: 2%;
+    display: inline-block;
+    height: 30%;
+    background-color: #13678A;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.ContenedorInfoLaboral {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+h4,
+h5 {
+    margin-bottom: 15px;
+}
+
+.ContenedorInfoLaboral ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* INICIO */
+
+.readMore_btn {
+    background-color: #45C4B0;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px #13678A;
+    cursor: pointer;
+}
+
+.readMore_btn:hover {
+    box-shadow: none;
+    background-color: #012030;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+
+.hideText {
+    display: none;
+}
+
+.showText {
+    display: block;
+}
+
+/* FIN */
+
+.ContenedorDeContacto {
+    width: 80%;
+    margin-top: 2%;
+    display: flex;
+    height: 80px;
+    background-color: #13678A;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
